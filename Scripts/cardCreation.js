@@ -44,6 +44,7 @@ function createCard(title, dueDate, dueTime, description) {
   removeButton.textContent = "Remove";
   removeButton.addEventListener("click", () => {
     NewcardContainer.remove();
+    removeFromLS()
   });
 
   let moveBtn = document.createElement("button");
@@ -66,8 +67,7 @@ function createCard(title, dueDate, dueTime, description) {
 
  return NewcardContainer;
  
- 
-  }
+}
   
 //saving the output into local storage
  const saveToLocalStorage = (title, date, time, description) =>{
