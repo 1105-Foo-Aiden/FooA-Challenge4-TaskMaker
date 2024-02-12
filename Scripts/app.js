@@ -3,6 +3,7 @@ import {NewcardContainer, createCard, saveToLocalStorage} from "./cardCreation.j
 let todoCard = document.getElementById('toDoCard')
 let newTaskSubmitBtn = document.getElementById('newTaskSubmitBtn')
 let newTaskDescription = document.getElementById('description')
+let newDueDate = document.getElementById('newDueDate')
 
 
 const loadLocal = () =>{
@@ -20,7 +21,6 @@ const loadLocal = () =>{
 //submit btn function
 newTaskSubmitBtn.addEventListener('click', (e) => {
     e.preventDefault(); //prevents the page from reloading
-    todoCard.textContent = " "
     //saving values of form feild in a varibale to use in functions as perameters
     let title = newTaskName.value;
     let dueDate = newDueDate.value;
