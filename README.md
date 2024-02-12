@@ -13,3 +13,5 @@ Another big issue is that the card cannot move because it took me all day to jus
 ### There was just not enough time to finish this Challenge unfortunately, there were just too many moving parts that you have to accuont for in the logic side of it to finish in the ~6 hours that we were given
 
 Ken (the TA) reassured us that not finishing it was fine since the point was to see what we could get done in that span of a day so hopefully this wont impact grades too much
+
+(Ater testing on Azure, the entire thing doesn't work so that's great)
